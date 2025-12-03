@@ -3,14 +3,14 @@
 This repo contains my solutions for the clustering assignment from my Data mining learning course.  
 Each notebook focuses on a different clustering method or data type (tabular, time series, text, images, audio).
 
-> Note: These notebooks are meant for learning / coursework. They’re not optimized or production code.
+
 
 ---
 
 ## Notebooks
 
 ### a) K-Means from scratch
-File: `a_kmeans_from_scratch.ipynb`
+
 
 - Implements K-Means using only NumPy (no `sklearn.cluster.KMeans`).
 - Includes k-means++ style initialization option.
@@ -26,7 +26,7 @@ File: `a_kmeans_from_scratch.ipynb`
 ---
 
 ### b) Hierarchical clustering
-File: `b_hierarchical_clustering.ipynb`
+
 
 - Agglomerative (bottom-up) clustering.
 - Dendrograms using SciPy (`linkage`, `dendrogram`).
@@ -37,7 +37,7 @@ File: `b_hierarchical_clustering.ipynb`
 ---
 
 ### c) Gaussian Mixture Models (GMM)
-File: `c_gmm_clustering.ipynb`
+
 
 - Uses `sklearn.mixture.GaussianMixture` for soft clustering.
 - Compares different numbers of components using AIC/BIC.
@@ -47,7 +47,7 @@ File: `c_gmm_clustering.ipynb`
 ---
 
 ### d) DBSCAN with PyCaret
-File: `d_dbscan_pycaret.ipynb`
+
 
 - Uses `pycaret.clustering` to run DBSCAN.
 - Example on a non-linear dataset (e.g. two moons).
@@ -57,7 +57,7 @@ File: `d_dbscan_pycaret.ipynb`
 ---
 
 ### e) Anomaly detection with PyOD
-File: `e_anomaly_detection_pyod.ipynb`
+
 
 - Shows anomaly detection for:
   - Univariate time series with injected spikes
@@ -71,7 +71,7 @@ File: `e_anomaly_detection_pyod.ipynb`
 ---
 
 ### f) Time-series clustering with pretrained models
-File: `f_timeseries_pretrained_clustering.ipynb`
+`
 
 - Converts 1D time series into image-like representations (e.g. Gramian Angular Fields).
 - Extracts embeddings using a pretrained vision backbone (e.g. ResNet).
@@ -81,7 +81,7 @@ File: `f_timeseries_pretrained_clustering.ipynb`
 ---
 
 ### g) Document clustering with LLM / sentence embeddings
-File: `g_document_clustering_llm_embeddings.ipynb`
+
 
 - Uses `sentence-transformers` (LLM-style text embeddings) to embed documents.
 - Example on a subset of the 20 Newsgroups dataset.
@@ -96,7 +96,7 @@ File: `g_document_clustering_llm_embeddings.ipynb`
 ---
 
 ### h) Image clustering with image embeddings
-File: `h_image_clustering_image_embeddings.ipynb`
+
 
 - Computes embeddings for images using a pretrained vision model
   (e.g. ImageBind, CLIP, or similar depending on environment).
@@ -108,7 +108,6 @@ File: `h_image_clustering_image_embeddings.ipynb`
 ---
 
 ### i) Audio clustering with audio embeddings
-File: `i_audio_clustering_audio_embeddings.ipynb`
 
 - Uses a small speech/audio dataset (e.g. YESNO).
 - Extracts embeddings using an audio model
@@ -116,11 +115,4 @@ File: `i_audio_clustering_audio_embeddings.ipynb`
 - Clusters the audio clips and evaluates how well clusters align with simple labels.
 - Visualizes the embedding space with UMAP and colors by cluster.
 
----
 
-## How to run
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
