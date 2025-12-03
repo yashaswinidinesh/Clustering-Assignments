@@ -1,6 +1,6 @@
 # Clustering Assignments – Notebooks (a–i)
 
-This repo contains my solutions for the clustering assignment from my machine learning course.  
+This repo contains my solutions for the clustering assignment from my Data mining learning course.  
 Each notebook focuses on a different clustering method or data type (tabular, time series, text, images, audio).
 
 > Note: These notebooks are meant for learning / coursework. They’re not optimized or production code.
